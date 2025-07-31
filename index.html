@@ -1,32 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hanghae Shopping Cart</title>
-  <!-- Note: Tailwind CDN is for development only. For production, use PostCSS or Tailwind CLI -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        fontFamily: {'sans': ['-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif']},
-        letterSpacing: {
-          'extra-wide': '0.3em',
-          'super-wide': '0.25em',
-        },
-        fontSize: {'2xs': '0.625rem'},
-        maxHeight: {'800': '800px'},
-        backgroundImage: {'gradient-black': 'linear-gradient(135deg, #000 0%, #333 100%)',}
-      }
-    }
-  }
-  </script>
-  <script type="module" crossorigin src="/front_6th_chapter2-1/assets/index-GCR0ZDND.js"></script>
-</head>
-<body class="bg-gray-50 text-black antialiased overflow-hidden h-screen text-sm">
-<div id="app" class="max-w-screen-xl h-screen max-h-800 mx-auto p-8 flex flex-col">
-  <!-- Content will be dynamically generated here -->
-</div>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hanghae Shopping Cart</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body></body>
 </html>
